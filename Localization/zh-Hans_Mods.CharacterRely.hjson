@@ -1,0 +1,46 @@
+Mods: {
+	CharacterRely: {
+		Keybinds: {
+			SkillSlot1.DisplayName: 技能槽 1
+			SkillSlot2.DisplayName: 技能槽 2
+			SkillSlot3.DisplayName: 技能槽 3
+		}
+
+		CharacterSelect: {
+			Title: 选择角色
+			CardButton: 角色：{0}
+			None: 未选择
+			Current: 使用中
+			Confirm: 确认使用
+			Back: 返回
+			NoRegisteredCharacters: 暂无已注册角色
+			SkillsHeading: 主动技能
+			NoSkills: 无主动技能
+			SkillStats: 充能 {0} 次，每次冷却 {1} 秒
+			PassivesHeading: 被动技能
+			NoPassives: 无被动技能
+		}
+
+		Projectiles.TestLaserProjectile.DisplayName: 掌心激光
+	}
+}
+
+Keybinds: {
+	SkillSlot1.DisplayName: 技能槽 1
+	SkillSlot2.DisplayName: 技能槽 2
+	SkillSlot3.DisplayName: 技能槽 3
+	SkillSlot4.DisplayName: 技能槽 4
+	SkillSlot5.DisplayName: 技能槽 5
+}
+
+SkillUI: {
+	EmptyShort: 空
+	EmptySlot: 技能槽 {0} [{1}]：未配置技能
+	Charges: 充能次数：{0}/{1}
+	RechargeTime: 每次充能时间：{0} 秒
+	Remaining: 下次充能剩余：{0} 秒
+	Ready: 已充满
+	Active: 正在释放
+}
+
+// Projectiles.TestLaserProjectile.DisplayName: Test Laser Projectile

@@ -1,0 +1,46 @@
+Mods: {
+	CharacterRely: {
+		Keybinds: {
+			SkillSlot1.DisplayName: Skill slot 1
+			SkillSlot2.DisplayName: Skill slot 2
+			SkillSlot3.DisplayName: Skill slot 3
+		}
+
+		CharacterSelect: {
+			Title: Select Character
+			CardButton: Character: {0}
+			None: None selected
+			Current: In use
+			Confirm: Confirm selection
+			Back: Back
+			NoRegisteredCharacters: No registered characters
+			SkillsHeading: Active skills
+			NoSkills: No active skills
+			SkillStats: "{0} charges, {1}s per charge"
+			PassivesHeading: Passive skills
+			NoPassives: No passive skills
+		}
+
+		Projectiles.TestLaserProjectile.DisplayName: Palm laser
+	}
+}
+
+Keybinds: {
+	SkillSlot1.DisplayName: Skill Slot1
+	SkillSlot2.DisplayName: Skill Slot2
+	SkillSlot3.DisplayName: Skill Slot3
+	SkillSlot4.DisplayName: Skill Slot4
+	SkillSlot5.DisplayName: Skill Slot5
+}
+
+SkillUI: {
+	EmptyShort: Empty
+	EmptySlot: Skill slot {0} [{1}] - No skill assigned
+	Charges: Charges: {0}/{1}
+	RechargeTime: Recharge time: {0}s
+	Remaining: Next charge in: {0}s
+	Ready: Fully charged
+	Active: Casting
+}
+
+Projectiles.TestLaserProjectile.DisplayName: Test Laser Projectile

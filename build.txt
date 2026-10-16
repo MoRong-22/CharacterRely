@@ -1,0 +1,3 @@
+displayName = CharacterRely
+author = mokou
+version = 0.1

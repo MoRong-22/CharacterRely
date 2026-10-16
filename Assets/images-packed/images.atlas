@@ -1,0 +1,76 @@
+
+images.png
+size: 69,30
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+前手
+  rotate: true
+  xy: 28, 2
+  size: 7, 15
+  orig: 11, 17
+  offset: 2, 1
+  index: -1
+前脚
+  rotate: false
+  xy: 61, 2
+  size: 6, 12
+  orig: 8, 14
+  offset: 1, 1
+  index: -1
+前腿
+  rotate: true
+  xy: 12, 2
+  size: 6, 14
+  orig: 8, 16
+  offset: 1, 1
+  index: -1
+前臂
+  rotate: false
+  xy: 12, 10
+  size: 8, 18
+  orig: 10, 20
+  offset: 1, 1
+  index: -1
+后手
+  rotate: true
+  xy: 45, 3
+  size: 7, 14
+  orig: 9, 16
+  offset: 1, 1
+  index: -1
+后脚
+  rotate: false
+  xy: 59, 16
+  size: 7, 12
+  orig: 9, 14
+  offset: 1, 1
+  index: -1
+后腿
+  rotate: false
+  xy: 50, 14
+  size: 7, 14
+  orig: 9, 16
+  offset: 1, 1
+  index: -1
+后臂
+  rotate: false
+  xy: 22, 11
+  size: 8, 17
+  orig: 10, 19
+  offset: 1, 1
+  index: -1
+头
+  rotate: false
+  xy: 32, 12
+  size: 16, 16
+  orig: 20, 20
+  offset: 2, 2
+  index: -1
+身体
+  rotate: false
+  xy: 2, 2
+  size: 8, 26
+  orig: 10, 28
+  offset: 1, 1
+  index: -1

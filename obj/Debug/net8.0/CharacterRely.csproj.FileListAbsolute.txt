@@ -1,0 +1,12 @@
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\bin\Debug\net8.0\CharacterRely.deps.json
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\bin\Debug\net8.0\CharacterRely.dll
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\bin\Debug\net8.0\CharacterRely.pdb
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\CharacterRely.csproj.AssemblyReference.cache
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\CharacterRely.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\CharacterRely.AssemblyInfoInputs.cache
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\CharacterRely.AssemblyInfo.cs
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\CharacterRely.csproj.CoreCompileInputs.cache
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\CharacterRely.dll
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\refint\CharacterRely.dll
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\CharacterRely.pdb
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\ref\CharacterRely.dll

@@ -1,0 +1,7 @@
+Official Spine C# runtime, historical 3.8 revision for 3.8.75 exports.
+https://github.com/EsotericSoftware/spine-runtimes
+Commit: c0699e23a0c8799710323bdf0e076e18f6ba41a2
+License: Spine Runtimes License Agreement (LICENSE.txt). This is not MIT.
+Upstream executable C# code is unchanged; Chinese documentation comments were added locally.
+Examples are used only in workspace tests.
+Spine 3.8.75 exports have known bugs; later runtimes reject that version.
