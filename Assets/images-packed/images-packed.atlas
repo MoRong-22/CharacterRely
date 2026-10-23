@@ -1,0 +1,104 @@
+
+images-packed.png
+size: 858,534
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/01-head-base
+  rotate: true
+  xy: 661, 339
+  size: 193, 195
+  orig: 195, 197
+  offset: 1, 1
+  index: -1
+images/02-eyes-open
+  rotate: false
+  xy: 2, 14
+  size: 144, 34
+  orig: 146, 36
+  offset: 1, 1
+  index: -1
+images/04-front-hair
+  rotate: false
+  xy: 433, 149
+  size: 236, 164
+  orig: 238, 166
+  offset: 1, 1
+  index: -1
+images/05-left-side-hair
+  rotate: false
+  xy: 715, 22
+  size: 75, 149
+  orig: 81, 154
+  offset: 3, 3
+  index: -1
+images/06-right-side-hair
+  rotate: true
+  xy: 148, 2
+  size: 46, 98
+  orig: 51, 102
+  offset: 3, 1
+  index: -1
+images/07-back-ponytail
+  rotate: false
+  xy: 2, 50
+  size: 276, 482
+  orig: 280, 485
+  offset: 2, 2
+  index: -1
+images/08-large-bow
+  rotate: false
+  xy: 433, 315
+  size: 226, 217
+  orig: 229, 220
+  offset: 1, 1
+  index: -1
+images/09-torso-neck
+  rotate: false
+  xy: 280, 10
+  size: 139, 218
+  orig: 143, 221
+  offset: 2, 2
+  index: -1
+images/10-left-arm
+  rotate: false
+  xy: 751, 183
+  size: 78, 154
+  orig: 80, 156
+  offset: 1, 1
+  index: -1
+images/11-right-arm
+  rotate: false
+  xy: 671, 173
+  size: 78, 164
+  orig: 82, 169
+  offset: 2, 2
+  index: -1
+images/12-left-hand
+  rotate: false
+  xy: 792, 30
+  size: 51, 72
+  orig: 57, 77
+  offset: 3, 3
+  index: -1
+images/13-right-hand
+  rotate: false
+  xy: 792, 104
+  size: 53, 77
+  orig: 58, 82
+  offset: 2, 2
+  index: -1
+images/14-left-leg-full
+  rotate: true
+  xy: 421, 9
+  size: 138, 292
+  orig: 143, 296
+  offset: 3, 2
+  index: -1
+images/15-right-leg-full
+  rotate: false
+  xy: 280, 230
+  size: 151, 302
+  orig: 155, 305
+  offset: 1, 1
+  index: -1

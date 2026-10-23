@@ -17,35 +17,16 @@ namespace CharacterRely
 	{
 		public override void Load()
 		{
+			// 公共系统由同一份 DLL 承载，所有角色共用注册表、界面和绘制入口。
+			CharacterRelyLibrary.Initialize(this);
 			CharacterRegistry.Register<TestCharacter>(this, "test", "测试角色",
 				"用于演示 Spine 动画、手持物品位置和技能系统的示例角色。");
 		}
 
 		public override void HandlePacket(System.IO.BinaryReader reader, int whoAmI)
 		{
-			if (reader.ReadByte() != CharacterSelectionPlayer.SyncMessage) return;
-			int playerIndex = reader.ReadByte();
-			string id = reader.ReadString();
-			if ((uint)playerIndex >= Main.maxPlayers) return;
-			if (Main.netMode == Terraria.ID.NetmodeID.Server)
-			{
-				// 服务器只接受该玩家自己的选择，再转发给其他客户端。
-				if (whoAmI != playerIndex) return;
-				Player player = Main.player[playerIndex];
-				player.GetModPlayer<CharacterSelectionPlayer>().ApplySynchronizedSelection(id);
-				CharacterSelectionPlayer.SendSelection(playerIndex, player.GetModPlayer<CharacterSelectionPlayer>().SelectedCharacterId,
-					-1, whoAmI);
-			}
-			else if (Main.netMode == Terraria.ID.NetmodeID.MultiplayerClient)
-			{
-				Main.player[playerIndex].GetModPlayer<CharacterSelectionPlayer>().ApplySynchronizedSelection(id);
-			}
-		}
-
-		public override void Unload()
-		{
-			CharacterRegistry.Clear();
-			global::CharacterRely.Animation.SpineAsset.UnloadAll();
+			if (reader.ReadByte() == CharacterRelyLibrary.PacketId)
+				CharacterRelyLibrary.HandlePacket(reader, whoAmI);
 		}
 	}
 }

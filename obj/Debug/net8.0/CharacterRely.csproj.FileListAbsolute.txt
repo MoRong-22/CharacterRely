@@ -10,3 +10,4 @@ C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\Character
 C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\refint\CharacterRely.dll
 C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\CharacterRely.pdb
 C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\ref\CharacterRely.dll
+C:\Users\Wrk07\OneDrive\文档\My Games\Terraria\tModLoader\ModSources\CharacterRely\obj\Debug\net8.0\CharacterRely.sourcelink.json

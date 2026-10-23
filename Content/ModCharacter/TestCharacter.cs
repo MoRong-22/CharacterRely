@@ -142,7 +142,7 @@ public class TestCharacter : CharacterLib
     {
         if (!IsSelected || !DemoEnabled || Main.dedServ) return;
 
-        // 更新阶段只选择动作和朝向，实际绘制交给下方 PostDrawTiles。
+        // 更新阶段只选择动作和朝向，实际绘制交给库内统一的 PostDrawTiles。
         if (LaserSkill.IsActive) Player.ChangeDir(LaserSkill.Facing);
         Animator.FlipX = Player.direction < 0;
         MovementMachine.ChangeState(Math.Abs(Player.velocity.X) > 0.1f ? MovementState.Move : MovementState.Idle);
@@ -175,6 +175,8 @@ public class SpineDemoCommand : ModCommand
     }
 }
 
+// DLL 已统一绘制所有已选角色，关闭旧示例绘制入口，避免同一角色绘制两次。
+[Autoload(false)]
 public class SpineDemoDrawSystem : ModSystem
 {
     public override void PostDrawTiles()

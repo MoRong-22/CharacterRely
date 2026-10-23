@@ -1,3 +1,6 @@
 displayName = CharacterRely
 author = mokou
 version = 0.1
+
+dllReferences = CharacterRely.Library
+buildIgnore = Animation/*.cs, ThirdParty/*, Content/ModCharacter/Character*.cs, Content/SkillSystem/Skill*.cs, Content/SkillSystem/PassiveSkill.cs

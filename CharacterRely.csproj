@@ -9,6 +9,12 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <Folder Include="Assets\" />
+	  <!-- 公共类型由 DLL 提供，避免与角色模组形成两套注册表和 UI。 -->
+	  <Compile Remove="Animation/**/*.cs;ThirdParty/**/*.cs;Content/ModCharacter/Character*.cs;Content/SkillSystem/Skill*.cs;Content/SkillSystem/PassiveSkill.cs" />
+	  <Reference Include="CharacterRely.Library">
+	    <HintPath>lib\CharacterRely.Library.dll</HintPath>
+	    <Private>false</Private>
+	  </Reference>
 	</ItemGroup>
 
 	<!-- References -->

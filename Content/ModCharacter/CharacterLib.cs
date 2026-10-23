@@ -381,10 +381,27 @@ namespace CharacterRely.Content.ModCharacter
         /// <summary>模型绘制缩放，默认 1；握点计算应使用相同缩放。</summary>
         public virtual float CharacterScale => 1f;
 
+        /// <summary>默认将角色本体与外描边合成到游戏像素栅格；重写为 false 使用原始 Spine 绘制。</summary>
+        public virtual bool UsePixelRendering => true;
+
+        /// <summary>每个像素格占用的游戏像素数，默认 1，保留细节；大于 1 才进一步合并像素。</summary>
+        public virtual int PixelSize => 1;
+
+        /// <summary>外描边宽度，单位为游戏像素，默认 2；0 关闭，随游戏缩放。</summary>
+        public virtual float OutlineWidth => 2f;
+
+        /// <summary>角色整体轮廓的描边颜色，默认不透明深色；Color.Transparent 关闭。</summary>
+        public virtual Color OutlineColor => new(28, 20, 24);
+
         /// <summary>绘制该玩家当前选中的 Spine 模型；需要特殊绘制的角色可重写。</summary>
         public virtual void DrawCharacter(GraphicsDevice graphicsDevice)
         {
             if (!IsSelected || !IsDrawEnabled || Main.dedServ || Player.dead) return;
+            if (UsePixelRendering)
+            {
+                ModContent.GetInstance<CharacterPixelRenderSystem>().Draw(this, graphicsDevice);
+                return;
+            }
             Animator.FlipX = Player.direction < 0;
             Animator.Draw(graphicsDevice, Player.Bottom - Main.screenPosition, scale: CharacterScale,
                 viewMatrix: Main.GameViewMatrix.TransformationMatrix);
